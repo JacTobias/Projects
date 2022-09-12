@@ -1,0 +1,118 @@
+#grid{
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    border: solid black 1px;
+    left: 250px;
+    top: 100px;
+    background-color: black;
+
+}
+body{
+    background: url('images/galaxy.png');
+}
+.block{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color:darkslateblue;
+}
+.user{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: darkslateblue;
+}
+.ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: darkslateblue;
+}
+.hidden{
+    display: none;
+}
+
+.show{
+    display: inline;
+
+}
+
+@keyframes blink-animation {
+    to {
+    visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+    visibility: hidden;
+    }}
+
+    .neon {
+        color:darkslateblue;
+        text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px white,
+        0 0 80px white,
+        0 0 90px white,
+        0 0 100px white,
+        0 0 150px white;
+    }
+
+#breakoutf{
+    position: absolute;
+    color:darkslateblue;
+    font-family:fantasy, Papyrus;
+    font-size: 80px;
+    top: 270px;
+    left: 550px;
+    
+}
+#breakoutf span{
+    animation: blink-animation 1.5s steps(5, start) infinite;
+}
+
+#breakouta{
+    position: absolute;
+    color:aliceblue;
+    font-family:fantasy, Papyrus;
+    font-size: 60px;
+    top: 10px;
+    left: 600px;
+}
+
+#start{
+    position: absolute;
+    left: 730px;
+    top: 400px;
+    font: 25px Serif, Garamond;
+    background-color: darkslateblue;
+    box-shadow: 0 8px 16px 0 black, 0 6px 20px 0 black;
+    border: solid 1px black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+#start:hover{
+    background-color:darkslateblue;
+    box-shadow: 0 8px 16px 0 white, 0 6px 20px 0 white;
+}
+#restart{
+    position: absolute;
+    left: 700px;
+    top: 400px;
+    font: 25px Serif, Garamond;
+    background-color: darkslateblue;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: dotted 1px white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+#restart:hover{
+    background-color:darkslateblue;
+    box-shadow: 0 8px 16px 0 white, 0 6px 20px 0 white;
+}

@@ -1,0 +1,39 @@
+body{
+    background-color:black;
+}
+#screen{
+    border: 1px solid black;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+}
+img {
+    display: none;
+}
+.hidden {
+    display : none;
+}
+.show {
+    display: inline;
+    left: 10px;
+}
+#start{
+    position:absolute;
+    color: black;
+    background-color:white;
+    font-size: 25px;
+    top: 400px;
+    left: 650px;
+    border-radius:25px;
+    padding: 5px 15px;
+}
+#start:hover{
+    box-shadow: 0px 5px 10px white;
+}
+#before{
+    color: white;
+    position: absolute;
+    font-size: 150px;
+    top: 200px;
+    left: 350px;
+}

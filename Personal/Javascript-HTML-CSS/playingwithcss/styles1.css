@@ -1,0 +1,17 @@
+#button1{
+    padding: 10px 15px;
+    font: 24px Fantasy, Copperplate;
+    border-radius: 25px;
+    background-color: purple;
+    color: white;
+}
+#button1:hover{
+    background-color: darkmagenta;
+    box-shadow: 0px 15px 35px black;
+}
+#button2{
+    
+}
+#button2:hover{
+
+}

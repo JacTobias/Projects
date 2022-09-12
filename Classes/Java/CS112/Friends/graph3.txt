@@ -1,0 +1,10 @@
+5
+steve|y|rutgers
+jack|y|cornell
+ryan|y|rutgers
+bethany|y|rutgers
+bob|y|rutgers
+steve|jack
+jack|ryan
+bethany|ryan
+bethany|bob

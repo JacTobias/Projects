@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Game</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+</head>
+<body>
+    <div id="marvelf" class="show">
+        <span style="--i:1">M</span>
+        <span style="--i:2">A</span>
+        <span style="--i:3">R</span>
+        <span style="--i:4">V</span>
+        <span style="--i:5">E</span>
+        <span style="--i:6">L</span>
+        <span> </span>
+        <span style="--i:7">M</span>
+        <span style="--i:8">E</span>
+        <span style="--i:9">M</span>
+        <span style="--i:10">O</span>
+        <span style="--i:11">R</span>
+        <span style="--1:12">Y</span>
+    </div>
+    <div id="marvela" class="hidden">Marvel Memory</div>
+    <h3 id="score" class="hidden">Score: <span id="result" class="hidden"></span></h3>
+    <div id="grid" class="hidden"></div>
+    <button id="start" onclick="startGame()" class="show"> Start</button>
+    <button id="nextLevel" onclick="goToNextLevel()" class="hidden">Next Level</button>
+    <button id="restart" onclick="replay()" class="hidden">Restart</button>
+    <script src="memorygame.js"></script>
+</body>
+</html>

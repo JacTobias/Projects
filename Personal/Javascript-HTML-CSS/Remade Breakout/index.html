@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Alien Knockout</title>
+</head>
+<body>
+    <img id="starup" src="images/starup.png" height="25" width="25">
+    <img id="stardown" src="images/stardown.png" height="25" width="25">
+    <img id="starleft" src="images/starleft.png" height="25" width="25">
+    <img id="starright" src="images/starright.png" height="25" width="25">
+    <img id="spaceship" src="images/brick.png" height="30" width="52">
+    <button id="start" onclick="game.start()" class="show">Start</button>
+    <canvas id="gameScreen" class="hidden" width="800" height="600"></canvas>
+    <div id="title" class="show">Alien Knockout</div>
+    <div id="title2" class="hidden">Alien Knockout</div>
+    <div id="gameOver" class="hidden">Gameover</div>
+    <button id="restart" class="hidden" onclick="restartGame()">Restart Game</button>
+    <script src="./breakoutremade.js"></script>
+</body>
+</html>

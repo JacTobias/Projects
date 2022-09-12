@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"> 
+<head>
+    <meta charset="UTF-8">
+    <title>Breakout Game</title>
+    <link rel="stylesheet" href="styles.css"><link>
+</head>
+<body>
+    
+    <div id="result">Score: </div>
+    <div id="breakoutf" class="show">
+        <span style="--i:1" class="neon">Shooting</span>
+        <span style="--i:2" class="neon">Stars</span></div>
+    <div id="breakouta" class="hidden">Shooting Stars</div>
+    <button id="start" onclick="startGame()" class="show">Start</button>
+    <button id="restart" onclick="replay()" class="hidden">Restart</button>
+    <div id="grid" class="hidden"></div>
+    <script src="breakout.js"></script>
+</body>
+</html>

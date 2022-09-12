@@ -1,0 +1,174 @@
+
+#grid {
+    position: absolute;
+    width: 1200px;
+    height: 608px;
+    top: 100px;
+    left: 140px;
+    border: double 20px black;
+    background-color: white;
+    border-radius: 10px;
+    perspective: 600px;
+}
+
+body {
+    background-color: darkred;
+}
+
+#marvela{
+    position: absolute;
+    position: relative;
+    color:whitesmoke;
+    top: 10px;
+    left: 550px;
+    font: 50px Fantasy, Copperplate;
+    text-shadow: 5px 5px 10px black;
+    font-size: 60px;
+}
+
+#marvelf span{
+    position: relative;
+    color:whitesmoke;
+    top: 250px;
+    left: 450px;
+    font: 90px Fantasy, Copperplate;
+    text-shadow: 5px 5px 20px black;
+    font-size: 90px;
+    
+}
+
+/*#start{
+
+    position: absolute;
+    font-size: 25px;
+    appearance: none;
+    top: 400px;
+    left: 740px;
+    background-color: start;
+    font: 25px Fantasy, Copperplate;
+    border-radius: 15%;
+    padding: 5px 15px;
+    
+}*/
+/* From uiverse.io */
+#start {
+    position: absolute;
+    font-size: 25px;
+    appearance: none;
+    top: 400px;
+    left: 740px;
+    font: 25px Fantasy, Copperplate;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: white;
+    background-color:brown;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+#start:hover {
+    background-color: darkred;
+    box-shadow: 0px 15px 20px rgba(226, 41, 12, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+#start:active {
+    transform: translateY(-1px);
+}
+
+#nextLevel:hover {
+    background-color: darkred;
+    box-shadow: 0px 15px 20px rgba(226, 41, 12, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+#nextLevel:active {
+    transform: translateY(-1px);
+}
+#restart:hover {
+    background-color: darkred;
+    box-shadow: 0px 15px 20px rgba(226, 41, 12, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+#restart:active {
+    transform: translateY(-1px);
+}
+#restart{
+    position: absolute;
+    font-size: 25px;
+    appearance: none;
+    top: 400px;
+    left: 740px;
+    font: 25px Fantasy, Copperplate;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: white;
+    background-color:brown;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+#nextLevel{
+    position: absolute;
+    font-size: 25px;
+    appearance: none;
+    top: 400px;
+    left: 740px;
+    font: 25px Fantasy, Copperplate;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: white;
+    background-color:brown;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+#result{
+    font: 25px Fantasy, Copperplate;
+}
+
+#score{
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    font: 25px Fantasy, Copperplate;
+    color: whitesmoke;
+    text-shadow: 10px 10px 10px black;
+}
+
+.hidden {
+    display : none;
+}
+.show {
+    display: inline;
+    left: 10px;
+}
+#images{
+    width: auto;
+    height: auto;
+}
+body{
+background: url('images/marvelback.png')
+}

@@ -1,0 +1,3 @@
+connect to ilab machines: NETID@NAMEOFILAb.cs.rutgers.edu
+transfer files: scp NAMEOFFILE NETID@NAMEOFILAB.cs.rutgers.edu:
+	- need to log in, then it downloads
